@@ -1,0 +1,42 @@
+body{
+	background: #999;
+	font-family: arial;
+}
+h1, h2{
+	color: #555;
+}
+.secoundary{
+	color: red;
+}
+/*this removes displaying anything that has the class hidden desktop while the width is below 767.*/
+@media (max-width: 767px) {
+	.hidden-desktop {
+	  display: none;
+	}
+  }
+
+@media only screen and (min-width: 200px){
+	body{
+		background-color: limegreen;
+	}
+}
+@media only screen and (min-width: 400px){
+	body{
+		background-color: lightpink;
+	}
+}
+@media only screen and (min-width: 600px){
+	body{
+		background-color: darkgreen;
+	}
+}
+@media only screen and (min-width: 800px){
+	body{
+		background-color: darkblue;
+	}
+}
+@media only screen and (min-width: 1000px){
+	body{
+		background-color: lightblue;
+	}
+}
